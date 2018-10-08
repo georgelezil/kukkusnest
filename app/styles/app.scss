@@ -1,2 +1,12 @@
 
 @import "ember-bootstrap/bootstrap";
+@import 'kukkusnest-navbar';
+@import 'kukkusnest-footer';
+
+@include kukkusnest-navbar;
+.kukkusnest-ui{
+
+}
+@include kukkusnest-footer;
+
+
